@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 
 //Routes
-router.get("/index", (req, res) => {
+router.get("/", (req, res) => {
   const locals = {
     title: "Akeem-Ayinla's Blog",
     description: "Simple Blog created with NodeJS, Express and MongoDb.",
